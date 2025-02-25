@@ -1,0 +1,106 @@
+.usuarios-panel {
+    padding: 20px;
+  }
+  
+  .usuarios-panel1 {
+    max-height: 68vh; /* Limita la altura máxima */
+    overflow-y: auto; /* Activa el scroll vertical */
+  }
+  
+  .usuarios-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Asegura que el encabezado esté encima del contenido */
+    background-color: #4caf50; /* Fondo verde para el encabezado */
+    color: rgb(0, 0, 0); /* Texto blanco para el encabezado */
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header-buttons .btn-new {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header-buttons .btn-delete {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .usuarios-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .usuarios-table th, .usuarios-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .usuarios-table th {
+    font-weight: bold;
+  }
+  
+  .usuarios-table td {
+    vertical-align: middle;
+  }
+  
+  .usuarios-table th:last-child, .usuarios-table td:last-child {
+    width: 180px; /* Ajustar el ancho de la columna de acciones */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones al borde derecho */
+    gap: 10px; /* Espacio entre los botones */
+  }
+  
+  .action-button, .delete-button {
+    padding: 5px 10px; /* Ajusta el tamaño del botón */
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Asegura que el modal esté sobre otros elementos */
+.modal-backdrop {
+  z-index: 1040 !important;  /* Cambia el z-index si es necesario */
+}
+
+.modal {
+  z-index: 1050 !important;  /* El modal debe estar encima del backdrop */
+}

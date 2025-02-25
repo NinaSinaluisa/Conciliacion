@@ -1,0 +1,30 @@
+.access-denied-container {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    align-items: center; /* Alinea el ícono y el texto */
+    justify-content: center;
+    flex-direction: column; /* Asegura que el ícono y los textos se alineen verticalmente */
+  }
+  
+  .access-denied-container h2 {
+    margin: 0;
+    font-size: 24px;
+    display: inline;
+    margin-left: 10px; /* Espacio entre el ícono y el texto */
+  }
+  
+  .denied-message {
+    margin-top: 10px; /* Añadimos margen superior para separarlo del título */
+    font-size: 16px;
+    margin-left: 50px; /* Le da un poco de indentación para que no esté alineado con el título */
+  }
+  

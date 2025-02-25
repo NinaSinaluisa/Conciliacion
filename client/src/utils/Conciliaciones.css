@@ -1,0 +1,4 @@
+.conciliaciones-panel1 {
+    max-height: 58vh; /* Limita la altura máxima */
+    overflow-y: auto; /* Activa el scroll vertical */
+  }
